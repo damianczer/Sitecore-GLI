@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>sitecore.ico</ApplicationIcon>
+    <PackageTags>sitecore</PackageTags>
+    <PackageIcon>sitecore.ico</PackageIcon>
+    <Copyright>Damian Czerwiński</Copyright>
+    <Description>Sitecore Serialization Tool</Description>
+    <Title>Sitecore GLI</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="sitecore.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\sitecore.ico">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
