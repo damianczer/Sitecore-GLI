@@ -1,28 +1,54 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>net8.0-windows</TargetFramework>
-    <Nullable>enable</Nullable>
-    <UseWindowsForms>true</UseWindowsForms>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <ApplicationIcon>sitecore.ico</ApplicationIcon>
-    <PackageTags>sitecore</PackageTags>
-    <PackageIcon>sitecore.ico</PackageIcon>
-    <Copyright>Damian Czerwiński</Copyright>
-    <Description>Sitecore Serialization Tool</Description>
-    <Title>Sitecore GLI</Title>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<ApplicationIcon>sitecore.ico</ApplicationIcon>
+		<PackageTags>sitecore</PackageTags>
+		<PackageIcon>sitecore.ico</PackageIcon>
+		<Copyright>Damian Czerwiński</Copyright>
+		<Description>Sitecore Serialization Tool</Description>
+		<Title>Sitecore GLI</Title>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Content Include="sitecore.ico" />
-  </ItemGroup>
+	<ItemGroup>
+		<Content Include="sitecore.ico" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <None Include="..\sitecore.ico">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
+	<ItemGroup>
+		<Compile Update="Properties\Resources.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Resources.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Properties\Settings.Designer.cs">
+			<DesignTimeSharedInput>True</DesignTimeSharedInput>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Settings.settings</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Update="Properties\Resources.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="Properties\Settings.settings">
+			<Generator>PublicSettingsSingleFileGenerator</Generator>
+			<LastGenOutput>Settings.Designer.cs</LastGenOutput>
+		</None>
+		<None Update="Resources\red-x.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\white-x.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
 
 </Project>
