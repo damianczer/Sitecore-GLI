@@ -8,6 +8,7 @@ namespace Sitecore.GLI
         int WindowMove;
         int WindowLocationX;
         int WindowLocationY;
+        private Commands? commandsForm;
 
         public Main()
         {
@@ -62,6 +63,55 @@ namespace Sitecore.GLI
         private void minimize_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
+        }
+
+        private void logo_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+            {
+                FileName = "https://damianczerwinski.pl/",
+                UseShellExecute = true
+            });
+        }
+
+        private void help_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+            {
+                FileName = "https://doc.sitecore.com/xp/en/developers/latest/developer-tools/sitecore-content-serialization.html",
+                UseShellExecute = true
+            });
+        }
+
+        private void commands_Click(object sender, EventArgs e)
+        {
+            if (commandsForm == null || commandsForm.IsDisposed)
+            {
+                commandsForm = new Commands();
+                commandsForm.Show();
+            }
+            else
+            {
+                commandsForm.BringToFront();
+                commandsForm.Focus();
+            }
+        }
+
+        private void powershell_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+                {
+                    FileName = "powershell.exe",
+                    UseShellExecute = true,
+                    Verb = "runas"
+                });
+            }
+            catch (System.ComponentModel.Win32Exception)
+            {
+                // User canceled the UAC prompt
+            }
         }
     }
 }
