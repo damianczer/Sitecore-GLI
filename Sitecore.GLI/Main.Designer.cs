@@ -182,11 +182,13 @@
             // 
             console.BackColor = SystemColors.InactiveCaptionText;
             console.BorderStyle = BorderStyle.None;
-            console.Enabled = false;
+            console.ForeColor = SystemColors.ButtonHighlight;
             console.HideSelection = false;
             console.Location = new Point(8, 58);
+            console.Margin = new Padding(10);
             console.Multiline = true;
             console.Name = "console";
+            console.ReadOnly = true;
             console.ScrollBars = ScrollBars.Vertical;
             console.Size = new Size(960, 280);
             console.TabIndex = 11;
@@ -313,6 +315,7 @@
             delete.TabIndex = 20;
             tooltip.SetToolTip(delete, "Clear Console");
             delete.UseVisualStyleBackColor = false;
+            delete.Click += delete_Click;
             // 
             // pullall
             // 
@@ -398,6 +401,7 @@
             toolsrestore.TabIndex = 26;
             tooltip.SetToolTip(toolsrestore, "Command: dotnet tool restore");
             toolsrestore.UseVisualStyleBackColor = false;
+            toolsrestore.Click += toolsrestore_Click;
             // 
             // commands
             // 
