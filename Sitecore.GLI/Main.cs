@@ -9,6 +9,7 @@ namespace Sitecore.GLI
         int WindowLocationX;
         int WindowLocationY;
         private Commands? commandsForm;
+        private Settings? settingsForm;
 
         public Main()
         {
@@ -176,6 +177,39 @@ namespace Sitecore.GLI
         {
             string appPath = AppDomain.CurrentDomain.BaseDirectory;
             console.Text = $"{appPath}>";
+        }
+
+        private void settings_Click(object sender, EventArgs e)
+        {
+            if (settingsForm == null || settingsForm.IsDisposed)
+            {
+                settingsForm = new Settings();
+                settingsForm.Show();
+            }
+            else
+            {
+                settingsForm.BringToFront();
+                settingsForm.Focus();
+            }
+        }
+
+        private void selectall_Click(object sender, EventArgs e)
+        {
+            bool allChecked = true;
+
+            for (int i = 0; i < modules.Items.Count; i++)
+            {
+                if (!modules.GetItemChecked(i))
+                {
+                    allChecked = false;
+                    break;
+                }
+            }
+
+            for (int i = 0; i < modules.Items.Count; i++)
+            {
+                modules.SetItemChecked(i, !allChecked);
+            }
         }
     }
 }

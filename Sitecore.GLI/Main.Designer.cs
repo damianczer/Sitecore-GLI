@@ -39,56 +39,60 @@
             delete = new Button();
             pullall = new Button();
             pushall = new Button();
-            textBox1 = new TextBox();
-            pictureBox2 = new PictureBox();
+            cmurl = new TextBox();
+            cmbg = new PictureBox();
             install = new Button();
             toolsrestore = new Button();
             commands = new Button();
             login = new Button();
-            label1 = new Label();
-            pictureBox3 = new PictureBox();
-            label2 = new Label();
-            textBox2 = new TextBox();
+            cmlabel = new Label();
+            identitybg = new PictureBox();
+            identitylabel = new Label();
+            identityurl = new TextBox();
             tooltip = new ToolTip(components);
             powershell = new Button();
             selectall = new Button();
             refresh = new Button();
             notifications = new Button();
-            textBox3 = new TextBox();
-            label3 = new Label();
-            pictureBox4 = new PictureBox();
-            textBox4 = new TextBox();
-            label4 = new Label();
-            pictureBox5 = new PictureBox();
-            checkedListBox1 = new CheckedListBox();
-            pictureBox6 = new PictureBox();
-            label5 = new Label();
-            pictureBox7 = new PictureBox();
-            textBox5 = new TextBox();
-            pictureBox8 = new PictureBox();
-            pictureBox9 = new PictureBox();
-            pictureBox10 = new PictureBox();
-            pictureBox11 = new PictureBox();
-            label6 = new Label();
-            label7 = new Label();
-            pictureBox12 = new PictureBox();
-            pictureBox13 = new PictureBox();
-            pictureBox14 = new PictureBox();
-            pictureBox15 = new PictureBox();
-            textBox6 = new TextBox();
-            label8 = new Label();
-            pictureBox16 = new PictureBox();
-            pictureBox17 = new PictureBox();
-            pictureBox18 = new PictureBox();
-            pictureBox19 = new PictureBox();
-            textBox7 = new TextBox();
+            sitecoreinit = new Button();
+            nuget = new Button();
+            logs = new Button();
+            openmodule = new Button();
+            workingurl = new TextBox();
+            workinglabel = new Label();
+            workingbg = new PictureBox();
+            modulesurl = new TextBox();
+            moduleslocationlabel = new Label();
+            moduleslocationbg = new PictureBox();
+            modules = new CheckedListBox();
+            toplistborder = new PictureBox();
+            toplistlabel = new Label();
+            bottomlistborder = new PictureBox();
+            modulesamount = new TextBox();
+            modulesamountbg = new PictureBox();
+            matop = new PictureBox();
+            mabottom = new PictureBox();
+            maright = new PictureBox();
+            modulesamountlabel = new Label();
+            serializeditemslabel = new Label();
+            siright = new PictureBox();
+            sibottom = new PictureBox();
+            sitop = new PictureBox();
+            serializeditemsbg = new PictureBox();
+            serializeditems = new TextBox();
+            newitemslabel = new Label();
+            niright = new PictureBox();
+            nibottom = new PictureBox();
+            nitop = new PictureBox();
+            newitemsbg = new PictureBox();
+            newitems = new TextBox();
             license = new Label();
             copyright = new Label();
-            pictureBox20 = new PictureBox();
-            pictureBox21 = new PictureBox();
-            pictureBox22 = new PictureBox();
-            pictureBox23 = new PictureBox();
-            pictureBox24 = new PictureBox();
+            middleborder = new PictureBox();
+            loaderleft = new PictureBox();
+            loaderright = new PictureBox();
+            loadertop = new PictureBox();
+            loaderbottom = new PictureBox();
             loader = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)topbar).BeginInit();
             ((System.ComponentModel.ISupportInitialize)logo).BeginInit();
@@ -98,29 +102,29 @@
             ((System.ComponentModel.ISupportInitialize)logotopbar).BeginInit();
             ((System.ComponentModel.ISupportInitialize)consoletopbar).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox19).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox21).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox22).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox23).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox24).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)cmbg).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)identitybg).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)workingbg).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)moduleslocationbg).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)toplistborder).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)bottomlistborder).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)modulesamountbg).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)matop).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mabottom).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)maright).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)siright).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)sibottom).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)sitop).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)serializeditemsbg).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)niright).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nibottom).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nitop).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)newitemsbg).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)middleborder).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)loaderleft).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)loaderright).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)loadertop).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)loaderbottom).BeginInit();
             ((System.ComponentModel.ISupportInitialize)loader).BeginInit();
             SuspendLayout();
             // 
@@ -270,6 +274,7 @@
             settings.TabIndex = 12;
             tooltip.SetToolTip(settings, "Application Settings");
             settings.UseVisualStyleBackColor = false;
+            settings.Click += settings_Click;
             // 
             // consoletopbar
             // 
@@ -411,26 +416,26 @@
             tooltip.SetToolTip(pushall, "Push - All Projects");
             pushall.UseVisualStyleBackColor = false;
             // 
-            // textBox1
+            // cmurl
             // 
-            textBox1.BorderStyle = BorderStyle.FixedSingle;
-            textBox1.Font = new Font("Segoe UI", 10F, FontStyle.Italic);
-            textBox1.ForeColor = SystemColors.WindowFrame;
-            textBox1.Location = new Point(154, 417);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(357, 25);
-            textBox1.TabIndex = 23;
-            textBox1.Text = "https://local.dc-platform-sitecore.pl";
-            textBox1.TextAlign = HorizontalAlignment.Center;
+            cmurl.BorderStyle = BorderStyle.FixedSingle;
+            cmurl.Font = new Font("Segoe UI", 10F);
+            cmurl.ForeColor = SystemColors.InactiveCaptionText;
+            cmurl.Location = new Point(154, 417);
+            cmurl.Name = "cmurl";
+            cmurl.Size = new Size(357, 25);
+            cmurl.TabIndex = 23;
+            cmurl.Text = "https://local.swb10.de";
+            cmurl.TextAlign = HorizontalAlignment.Center;
             // 
-            // pictureBox2
+            // cmbg
             // 
-            pictureBox2.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox2.Location = new Point(7, 417);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(141, 25);
-            pictureBox2.TabIndex = 24;
-            pictureBox2.TabStop = false;
+            cmbg.BackColor = Color.FromArgb(254, 41, 17);
+            cmbg.Location = new Point(7, 417);
+            cmbg.Name = "cmbg";
+            cmbg.Size = new Size(141, 25);
+            cmbg.TabIndex = 24;
+            cmbg.TabStop = false;
             // 
             // install
             // 
@@ -498,50 +503,50 @@
             tooltip.SetToolTip(login, "Login & Authorize");
             login.UseVisualStyleBackColor = false;
             // 
-            // label1
+            // cmlabel
             // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.FromArgb(254, 41, 17);
-            label1.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Pixel);
-            label1.ForeColor = SystemColors.ButtonHighlight;
-            label1.Location = new Point(13, 422);
-            label1.Name = "label1";
-            label1.Size = new Size(128, 12);
-            label1.TabIndex = 29;
-            label1.Text = "Content Management URL";
+            cmlabel.AutoSize = true;
+            cmlabel.BackColor = Color.FromArgb(254, 41, 17);
+            cmlabel.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Pixel);
+            cmlabel.ForeColor = SystemColors.ButtonHighlight;
+            cmlabel.Location = new Point(13, 422);
+            cmlabel.Name = "cmlabel";
+            cmlabel.Size = new Size(128, 12);
+            cmlabel.TabIndex = 29;
+            cmlabel.Text = "Content Management URL";
             // 
-            // pictureBox3
+            // identitybg
             // 
-            pictureBox3.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox3.Location = new Point(7, 448);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(141, 25);
-            pictureBox3.TabIndex = 30;
-            pictureBox3.TabStop = false;
+            identitybg.BackColor = Color.FromArgb(254, 41, 17);
+            identitybg.Location = new Point(7, 448);
+            identitybg.Name = "identitybg";
+            identitybg.Size = new Size(141, 25);
+            identitybg.TabIndex = 30;
+            identitybg.TabStop = false;
             // 
-            // label2
+            // identitylabel
             // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.FromArgb(254, 41, 17);
-            label2.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Pixel);
-            label2.ForeColor = SystemColors.ButtonHighlight;
-            label2.Location = new Point(30, 453);
-            label2.Name = "label2";
-            label2.Size = new Size(95, 12);
-            label2.TabIndex = 31;
-            label2.Text = "Identity Server URL";
+            identitylabel.AutoSize = true;
+            identitylabel.BackColor = Color.FromArgb(254, 41, 17);
+            identitylabel.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Pixel);
+            identitylabel.ForeColor = SystemColors.ButtonHighlight;
+            identitylabel.Location = new Point(30, 453);
+            identitylabel.Name = "identitylabel";
+            identitylabel.Size = new Size(95, 12);
+            identitylabel.TabIndex = 31;
+            identitylabel.Text = "Identity Server URL";
             // 
-            // textBox2
+            // identityurl
             // 
-            textBox2.BorderStyle = BorderStyle.FixedSingle;
-            textBox2.Font = new Font("Segoe UI", 10F, FontStyle.Italic);
-            textBox2.ForeColor = SystemColors.WindowFrame;
-            textBox2.Location = new Point(154, 448);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(357, 25);
-            textBox2.TabIndex = 32;
-            textBox2.Text = "https://identity.dc-platform-sitecore.pl";
-            textBox2.TextAlign = HorizontalAlignment.Center;
+            identityurl.BorderStyle = BorderStyle.FixedSingle;
+            identityurl.Font = new Font("Segoe UI", 10F);
+            identityurl.ForeColor = SystemColors.InactiveCaptionText;
+            identityurl.Location = new Point(154, 448);
+            identityurl.Name = "identityurl";
+            identityurl.Size = new Size(357, 25);
+            identityurl.TabIndex = 32;
+            identityurl.Text = "https://local.swb10.identityserver";
+            identityurl.TextAlign = HorizontalAlignment.Center;
             // 
             // powershell
             // 
@@ -573,8 +578,9 @@
             selectall.Name = "selectall";
             selectall.Size = new Size(65, 48);
             selectall.TabIndex = 43;
-            tooltip.SetToolTip(selectall, "Select ALL");
+            tooltip.SetToolTip(selectall, "Select All");
             selectall.UseVisualStyleBackColor = false;
+            selectall.Click += selectall_Click;
             // 
             // refresh
             // 
@@ -608,301 +614,365 @@
             tooltip.SetToolTip(notifications, "Enable & Disable Notifications");
             notifications.UseVisualStyleBackColor = false;
             // 
-            // textBox3
+            // sitecoreinit
             // 
-            textBox3.BorderStyle = BorderStyle.FixedSingle;
-            textBox3.Font = new Font("Segoe UI", 10F, FontStyle.Italic);
-            textBox3.ForeColor = SystemColors.WindowFrame;
-            textBox3.Location = new Point(154, 479);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(357, 25);
-            textBox3.TabIndex = 36;
-            textBox3.Text = "https://identity.dc-platform-sitecore.pl";
-            textBox3.TextAlign = HorizontalAlignment.Center;
+            sitecoreinit.BackColor = Color.FromArgb(254, 41, 17);
+            sitecoreinit.BackgroundImage = (Image)resources.GetObject("sitecoreinit.BackgroundImage");
+            sitecoreinit.BackgroundImageLayout = ImageLayout.Center;
+            sitecoreinit.Cursor = Cursors.Hand;
+            sitecoreinit.FlatAppearance.BorderSize = 0;
+            sitecoreinit.FlatStyle = FlatStyle.Flat;
+            sitecoreinit.ForeColor = SystemColors.ActiveCaptionText;
+            sitecoreinit.Location = new Point(380, 541);
+            sitecoreinit.Name = "sitecoreinit";
+            sitecoreinit.Size = new Size(44, 40);
+            sitecoreinit.TabIndex = 76;
+            tooltip.SetToolTip(sitecoreinit, "Command: dotnet sitecore init");
+            sitecoreinit.UseVisualStyleBackColor = false;
             // 
-            // label3
+            // nuget
             // 
-            label3.AutoSize = true;
-            label3.BackColor = Color.FromArgb(254, 41, 17);
-            label3.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Pixel);
-            label3.ForeColor = SystemColors.ButtonHighlight;
-            label3.Location = new Point(20, 484);
-            label3.Name = "label3";
-            label3.Size = new Size(114, 12);
-            label3.TabIndex = 35;
-            label3.Text = "Working Directory URL";
+            nuget.BackColor = Color.FromArgb(254, 41, 17);
+            nuget.BackgroundImage = (Image)resources.GetObject("nuget.BackgroundImage");
+            nuget.BackgroundImageLayout = ImageLayout.Center;
+            nuget.Cursor = Cursors.Hand;
+            nuget.FlatAppearance.BorderSize = 0;
+            nuget.FlatStyle = FlatStyle.Flat;
+            nuget.ForeColor = SystemColors.ActiveCaptionText;
+            nuget.Location = new Point(330, 541);
+            nuget.Name = "nuget";
+            nuget.Size = new Size(44, 40);
+            nuget.TabIndex = 77;
+            tooltip.SetToolTip(nuget, "Command: dotnet nuget add source -n SCS");
+            nuget.UseVisualStyleBackColor = false;
             // 
-            // pictureBox4
+            // logs
             // 
-            pictureBox4.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox4.Location = new Point(7, 479);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(141, 25);
-            pictureBox4.TabIndex = 34;
-            pictureBox4.TabStop = false;
+            logs.BackColor = Color.FromArgb(254, 41, 17);
+            logs.BackgroundImage = (Image)resources.GetObject("logs.BackgroundImage");
+            logs.BackgroundImageLayout = ImageLayout.Center;
+            logs.Cursor = Cursors.Hand;
+            logs.FlatAppearance.BorderSize = 0;
+            logs.FlatStyle = FlatStyle.Flat;
+            logs.ForeColor = SystemColors.ActiveCaptionText;
+            logs.Location = new Point(280, 541);
+            logs.Name = "logs";
+            logs.Size = new Size(44, 40);
+            logs.TabIndex = 78;
+            tooltip.SetToolTip(logs, "View Logs");
+            logs.UseVisualStyleBackColor = false;
             // 
-            // textBox4
+            // openmodule
             // 
-            textBox4.BorderStyle = BorderStyle.FixedSingle;
-            textBox4.Font = new Font("Segoe UI", 10F, FontStyle.Italic);
-            textBox4.ForeColor = SystemColors.WindowFrame;
-            textBox4.Location = new Point(154, 510);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(357, 25);
-            textBox4.TabIndex = 39;
-            textBox4.Text = "https://identity.dc-platform-sitecore.pl";
-            textBox4.TextAlign = HorizontalAlignment.Center;
+            openmodule.BackColor = Color.FromArgb(254, 41, 17);
+            openmodule.BackgroundImage = (Image)resources.GetObject("openmodule.BackgroundImage");
+            openmodule.BackgroundImageLayout = ImageLayout.Center;
+            openmodule.Cursor = Cursors.Hand;
+            openmodule.FlatAppearance.BorderSize = 0;
+            openmodule.FlatStyle = FlatStyle.Flat;
+            openmodule.ForeColor = SystemColors.ActiveCaptionText;
+            openmodule.Location = new Point(230, 541);
+            openmodule.Name = "openmodule";
+            openmodule.Size = new Size(44, 40);
+            openmodule.TabIndex = 79;
+            tooltip.SetToolTip(openmodule, "Open Module Directory");
+            openmodule.UseVisualStyleBackColor = false;
             // 
-            // label4
+            // workingurl
             // 
-            label4.AutoSize = true;
-            label4.BackColor = Color.FromArgb(254, 41, 17);
-            label4.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Pixel);
-            label4.ForeColor = SystemColors.ButtonHighlight;
-            label4.Location = new Point(22, 515);
-            label4.Name = "label4";
-            label4.Size = new Size(110, 12);
-            label4.TabIndex = 38;
-            label4.Text = "Modules Location URL";
+            workingurl.BorderStyle = BorderStyle.FixedSingle;
+            workingurl.Font = new Font("Segoe UI", 10F);
+            workingurl.ForeColor = SystemColors.InactiveCaptionText;
+            workingurl.Location = new Point(154, 479);
+            workingurl.Name = "workingurl";
+            workingurl.Size = new Size(357, 25);
+            workingurl.TabIndex = 36;
+            workingurl.Text = "E:\\SWB\\SWBSitecore10\\SWBSitecore";
+            workingurl.TextAlign = HorizontalAlignment.Center;
             // 
-            // pictureBox5
+            // workinglabel
             // 
-            pictureBox5.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox5.Location = new Point(7, 510);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(141, 25);
-            pictureBox5.TabIndex = 37;
-            pictureBox5.TabStop = false;
+            workinglabel.AutoSize = true;
+            workinglabel.BackColor = Color.FromArgb(254, 41, 17);
+            workinglabel.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Pixel);
+            workinglabel.ForeColor = SystemColors.ButtonHighlight;
+            workinglabel.Location = new Point(20, 484);
+            workinglabel.Name = "workinglabel";
+            workinglabel.Size = new Size(114, 12);
+            workinglabel.TabIndex = 35;
+            workinglabel.Text = "Working Directory URL";
             // 
-            // checkedListBox1
+            // workingbg
             // 
-            checkedListBox1.BorderStyle = BorderStyle.None;
-            checkedListBox1.CheckOnClick = true;
-            checkedListBox1.FormattingEnabled = true;
-            checkedListBox1.Items.AddRange(new object[] { "Featue.DCPlatform", "Foundation.Component", "Feature.User", "Feature.DCShop", "Foundation.API", "Feature.Misc", "Feature.Test" });
-            checkedListBox1.Location = new Point(548, 445);
-            checkedListBox1.Name = "checkedListBox1";
-            checkedListBox1.Size = new Size(420, 108);
-            checkedListBox1.TabIndex = 40;
+            workingbg.BackColor = Color.FromArgb(254, 41, 17);
+            workingbg.Location = new Point(7, 479);
+            workingbg.Name = "workingbg";
+            workingbg.Size = new Size(141, 25);
+            workingbg.TabIndex = 34;
+            workingbg.TabStop = false;
             // 
-            // pictureBox6
+            // modulesurl
             // 
-            pictureBox6.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox6.Location = new Point(548, 417);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(491, 25);
-            pictureBox6.TabIndex = 41;
-            pictureBox6.TabStop = false;
+            modulesurl.BorderStyle = BorderStyle.FixedSingle;
+            modulesurl.Font = new Font("Segoe UI", 10F);
+            modulesurl.ForeColor = SystemColors.InactiveCaptionText;
+            modulesurl.Location = new Point(154, 510);
+            modulesurl.Name = "modulesurl";
+            modulesurl.Size = new Size(357, 25);
+            modulesurl.TabIndex = 39;
+            modulesurl.Text = "E:\\SWB\\SWBSitecore10\\SWBSitecore\\src";
+            modulesurl.TextAlign = HorizontalAlignment.Center;
             // 
-            // label5
+            // moduleslocationlabel
             // 
-            label5.AutoSize = true;
-            label5.BackColor = Color.FromArgb(254, 41, 17);
-            label5.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Pixel);
-            label5.ForeColor = SystemColors.ButtonHighlight;
-            label5.Location = new Point(553, 423);
-            label5.Name = "label5";
-            label5.Size = new Size(131, 12);
-            label5.TabIndex = 42;
-            label5.Text = "Available Sitecore Modules";
+            moduleslocationlabel.AutoSize = true;
+            moduleslocationlabel.BackColor = Color.FromArgb(254, 41, 17);
+            moduleslocationlabel.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Pixel);
+            moduleslocationlabel.ForeColor = SystemColors.ButtonHighlight;
+            moduleslocationlabel.Location = new Point(22, 515);
+            moduleslocationlabel.Name = "moduleslocationlabel";
+            moduleslocationlabel.Size = new Size(110, 12);
+            moduleslocationlabel.TabIndex = 38;
+            moduleslocationlabel.Text = "Modules Location URL";
             // 
-            // pictureBox7
+            // moduleslocationbg
             // 
-            pictureBox7.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox7.Location = new Point(548, 556);
-            pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(491, 25);
-            pictureBox7.TabIndex = 45;
-            pictureBox7.TabStop = false;
+            moduleslocationbg.BackColor = Color.FromArgb(254, 41, 17);
+            moduleslocationbg.Location = new Point(7, 510);
+            moduleslocationbg.Name = "moduleslocationbg";
+            moduleslocationbg.Size = new Size(141, 25);
+            moduleslocationbg.TabIndex = 37;
+            moduleslocationbg.TabStop = false;
             // 
-            // textBox5
+            // modules
             // 
-            textBox5.BackColor = SystemColors.ButtonHighlight;
-            textBox5.BorderStyle = BorderStyle.None;
-            textBox5.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            textBox5.ForeColor = SystemColors.WindowFrame;
-            textBox5.Location = new Point(221, 376);
-            textBox5.Name = "textBox5";
-            textBox5.ReadOnly = true;
-            textBox5.Size = new Size(60, 22);
-            textBox5.TabIndex = 46;
-            textBox5.Text = "10";
-            textBox5.TextAlign = HorizontalAlignment.Center;
+            modules.BorderStyle = BorderStyle.None;
+            modules.CheckOnClick = true;
+            modules.FormattingEnabled = true;
+            modules.Items.AddRange(new object[] { "Featue.DCPlatform", "Foundation.Component", "Feature.User", "Feature.DCShop", "Foundation.API", "Feature.Misc", "Feature.Test" });
+            modules.Location = new Point(548, 445);
+            modules.Name = "modules";
+            modules.Size = new Size(420, 108);
+            modules.TabIndex = 40;
             // 
-            // pictureBox8
+            // toplistborder
             // 
-            pictureBox8.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox8.Location = new Point(154, 363);
-            pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(65, 48);
-            pictureBox8.TabIndex = 47;
-            pictureBox8.TabStop = false;
+            toplistborder.BackColor = Color.FromArgb(254, 41, 17);
+            toplistborder.Location = new Point(548, 417);
+            toplistborder.Name = "toplistborder";
+            toplistborder.Size = new Size(491, 25);
+            toplistborder.TabIndex = 41;
+            toplistborder.TabStop = false;
             // 
-            // pictureBox9
+            // toplistlabel
             // 
-            pictureBox9.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox9.Location = new Point(219, 363);
-            pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(65, 10);
-            pictureBox9.TabIndex = 48;
-            pictureBox9.TabStop = false;
+            toplistlabel.AutoSize = true;
+            toplistlabel.BackColor = Color.FromArgb(254, 41, 17);
+            toplistlabel.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Pixel);
+            toplistlabel.ForeColor = SystemColors.ButtonHighlight;
+            toplistlabel.Location = new Point(553, 423);
+            toplistlabel.Name = "toplistlabel";
+            toplistlabel.Size = new Size(131, 12);
+            toplistlabel.TabIndex = 42;
+            toplistlabel.Text = "Available Sitecore Modules";
             // 
-            // pictureBox10
+            // bottomlistborder
             // 
-            pictureBox10.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox10.Location = new Point(219, 401);
-            pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(65, 10);
-            pictureBox10.TabIndex = 49;
-            pictureBox10.TabStop = false;
+            bottomlistborder.BackColor = Color.FromArgb(254, 41, 17);
+            bottomlistborder.Location = new Point(548, 556);
+            bottomlistborder.Name = "bottomlistborder";
+            bottomlistborder.Size = new Size(491, 25);
+            bottomlistborder.TabIndex = 45;
+            bottomlistborder.TabStop = false;
             // 
-            // pictureBox11
+            // modulesamount
             // 
-            pictureBox11.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox11.Location = new Point(284, 363);
-            pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(10, 48);
-            pictureBox11.TabIndex = 50;
-            pictureBox11.TabStop = false;
+            modulesamount.BackColor = SystemColors.ButtonHighlight;
+            modulesamount.BorderStyle = BorderStyle.None;
+            modulesamount.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            modulesamount.ForeColor = SystemColors.WindowFrame;
+            modulesamount.Location = new Point(221, 376);
+            modulesamount.Name = "modulesamount";
+            modulesamount.ReadOnly = true;
+            modulesamount.Size = new Size(60, 22);
+            modulesamount.TabIndex = 46;
+            modulesamount.Text = "10";
+            modulesamount.TextAlign = HorizontalAlignment.Center;
             // 
-            // label6
+            // modulesamountbg
             // 
-            label6.AutoSize = true;
-            label6.BackColor = Color.FromArgb(254, 41, 17);
-            label6.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Pixel);
-            label6.ForeColor = SystemColors.ButtonHighlight;
-            label6.Location = new Point(164, 375);
-            label6.Name = "label6";
-            label6.Size = new Size(45, 24);
-            label6.TabIndex = 51;
-            label6.Text = "Modules\r\nAmount";
-            label6.TextAlign = ContentAlignment.MiddleCenter;
+            modulesamountbg.BackColor = Color.FromArgb(254, 41, 17);
+            modulesamountbg.Location = new Point(154, 363);
+            modulesamountbg.Name = "modulesamountbg";
+            modulesamountbg.Size = new Size(65, 48);
+            modulesamountbg.TabIndex = 47;
+            modulesamountbg.TabStop = false;
             // 
-            // label7
+            // matop
             // 
-            label7.AutoSize = true;
-            label7.BackColor = Color.FromArgb(254, 41, 17);
-            label7.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Pixel);
-            label7.ForeColor = SystemColors.ButtonHighlight;
-            label7.Location = new Point(307, 375);
-            label7.Name = "label7";
-            label7.Size = new Size(50, 24);
-            label7.TabIndex = 57;
-            label7.Text = "Serialized\r\nItems";
-            label7.TextAlign = ContentAlignment.MiddleCenter;
+            matop.BackColor = Color.FromArgb(254, 41, 17);
+            matop.Location = new Point(219, 363);
+            matop.Name = "matop";
+            matop.Size = new Size(65, 10);
+            matop.TabIndex = 48;
+            matop.TabStop = false;
             // 
-            // pictureBox12
+            // mabottom
             // 
-            pictureBox12.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox12.Location = new Point(430, 363);
-            pictureBox12.Name = "pictureBox12";
-            pictureBox12.Size = new Size(10, 48);
-            pictureBox12.TabIndex = 56;
-            pictureBox12.TabStop = false;
+            mabottom.BackColor = Color.FromArgb(254, 41, 17);
+            mabottom.Location = new Point(219, 401);
+            mabottom.Name = "mabottom";
+            mabottom.Size = new Size(65, 10);
+            mabottom.TabIndex = 49;
+            mabottom.TabStop = false;
             // 
-            // pictureBox13
+            // maright
             // 
-            pictureBox13.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox13.Location = new Point(365, 401);
-            pictureBox13.Name = "pictureBox13";
-            pictureBox13.Size = new Size(65, 10);
-            pictureBox13.TabIndex = 55;
-            pictureBox13.TabStop = false;
+            maright.BackColor = Color.FromArgb(254, 41, 17);
+            maright.Location = new Point(284, 363);
+            maright.Name = "maright";
+            maright.Size = new Size(10, 48);
+            maright.TabIndex = 50;
+            maright.TabStop = false;
             // 
-            // pictureBox14
+            // modulesamountlabel
             // 
-            pictureBox14.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox14.Location = new Point(365, 363);
-            pictureBox14.Name = "pictureBox14";
-            pictureBox14.Size = new Size(65, 10);
-            pictureBox14.TabIndex = 54;
-            pictureBox14.TabStop = false;
+            modulesamountlabel.AutoSize = true;
+            modulesamountlabel.BackColor = Color.FromArgb(254, 41, 17);
+            modulesamountlabel.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Pixel);
+            modulesamountlabel.ForeColor = SystemColors.ButtonHighlight;
+            modulesamountlabel.Location = new Point(164, 375);
+            modulesamountlabel.Name = "modulesamountlabel";
+            modulesamountlabel.Size = new Size(45, 24);
+            modulesamountlabel.TabIndex = 51;
+            modulesamountlabel.Text = "Modules\r\nAmount";
+            modulesamountlabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // pictureBox15
+            // serializeditemslabel
             // 
-            pictureBox15.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox15.Location = new Point(300, 363);
-            pictureBox15.Name = "pictureBox15";
-            pictureBox15.Size = new Size(65, 48);
-            pictureBox15.TabIndex = 53;
-            pictureBox15.TabStop = false;
+            serializeditemslabel.AutoSize = true;
+            serializeditemslabel.BackColor = Color.FromArgb(254, 41, 17);
+            serializeditemslabel.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Pixel);
+            serializeditemslabel.ForeColor = SystemColors.ButtonHighlight;
+            serializeditemslabel.Location = new Point(307, 375);
+            serializeditemslabel.Name = "serializeditemslabel";
+            serializeditemslabel.Size = new Size(50, 24);
+            serializeditemslabel.TabIndex = 57;
+            serializeditemslabel.Text = "Serialized\r\nItems";
+            serializeditemslabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // textBox6
+            // siright
             // 
-            textBox6.BackColor = SystemColors.ButtonHighlight;
-            textBox6.BorderStyle = BorderStyle.None;
-            textBox6.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            textBox6.ForeColor = SystemColors.WindowFrame;
-            textBox6.Location = new Point(367, 376);
-            textBox6.Name = "textBox6";
-            textBox6.ReadOnly = true;
-            textBox6.Size = new Size(60, 22);
-            textBox6.TabIndex = 52;
-            textBox6.Text = "1359";
-            textBox6.TextAlign = HorizontalAlignment.Center;
+            siright.BackColor = Color.FromArgb(254, 41, 17);
+            siright.Location = new Point(430, 363);
+            siright.Name = "siright";
+            siright.Size = new Size(10, 48);
+            siright.TabIndex = 56;
+            siright.TabStop = false;
             // 
-            // label8
+            // sibottom
             // 
-            label8.AutoSize = true;
-            label8.BackColor = Color.FromArgb(254, 41, 17);
-            label8.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Pixel);
-            label8.ForeColor = SystemColors.ButtonHighlight;
-            label8.Location = new Point(25, 375);
-            label8.Name = "label8";
-            label8.Size = new Size(30, 24);
-            label8.TabIndex = 63;
-            label8.Text = "New\r\nItems";
-            label8.TextAlign = ContentAlignment.MiddleCenter;
+            sibottom.BackColor = Color.FromArgb(254, 41, 17);
+            sibottom.Location = new Point(365, 401);
+            sibottom.Name = "sibottom";
+            sibottom.Size = new Size(65, 10);
+            sibottom.TabIndex = 55;
+            sibottom.TabStop = false;
             // 
-            // pictureBox16
+            // sitop
             // 
-            pictureBox16.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox16.Location = new Point(138, 363);
-            pictureBox16.Name = "pictureBox16";
-            pictureBox16.Size = new Size(10, 48);
-            pictureBox16.TabIndex = 62;
-            pictureBox16.TabStop = false;
+            sitop.BackColor = Color.FromArgb(254, 41, 17);
+            sitop.Location = new Point(365, 363);
+            sitop.Name = "sitop";
+            sitop.Size = new Size(65, 10);
+            sitop.TabIndex = 54;
+            sitop.TabStop = false;
             // 
-            // pictureBox17
+            // serializeditemsbg
             // 
-            pictureBox17.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox17.Location = new Point(73, 401);
-            pictureBox17.Name = "pictureBox17";
-            pictureBox17.Size = new Size(65, 10);
-            pictureBox17.TabIndex = 61;
-            pictureBox17.TabStop = false;
+            serializeditemsbg.BackColor = Color.FromArgb(254, 41, 17);
+            serializeditemsbg.Location = new Point(300, 363);
+            serializeditemsbg.Name = "serializeditemsbg";
+            serializeditemsbg.Size = new Size(65, 48);
+            serializeditemsbg.TabIndex = 53;
+            serializeditemsbg.TabStop = false;
             // 
-            // pictureBox18
+            // serializeditems
             // 
-            pictureBox18.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox18.Location = new Point(73, 363);
-            pictureBox18.Name = "pictureBox18";
-            pictureBox18.Size = new Size(65, 10);
-            pictureBox18.TabIndex = 60;
-            pictureBox18.TabStop = false;
+            serializeditems.BackColor = SystemColors.ButtonHighlight;
+            serializeditems.BorderStyle = BorderStyle.None;
+            serializeditems.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            serializeditems.ForeColor = SystemColors.WindowFrame;
+            serializeditems.Location = new Point(367, 376);
+            serializeditems.Name = "serializeditems";
+            serializeditems.ReadOnly = true;
+            serializeditems.Size = new Size(60, 22);
+            serializeditems.TabIndex = 52;
+            serializeditems.Text = "1359";
+            serializeditems.TextAlign = HorizontalAlignment.Center;
             // 
-            // pictureBox19
+            // newitemslabel
             // 
-            pictureBox19.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox19.Location = new Point(8, 363);
-            pictureBox19.Name = "pictureBox19";
-            pictureBox19.Size = new Size(65, 48);
-            pictureBox19.TabIndex = 59;
-            pictureBox19.TabStop = false;
+            newitemslabel.AutoSize = true;
+            newitemslabel.BackColor = Color.FromArgb(254, 41, 17);
+            newitemslabel.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Pixel);
+            newitemslabel.ForeColor = SystemColors.ButtonHighlight;
+            newitemslabel.Location = new Point(25, 375);
+            newitemslabel.Name = "newitemslabel";
+            newitemslabel.Size = new Size(30, 24);
+            newitemslabel.TabIndex = 63;
+            newitemslabel.Text = "New\r\nItems";
+            newitemslabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // textBox7
+            // niright
             // 
-            textBox7.BackColor = SystemColors.ButtonHighlight;
-            textBox7.BorderStyle = BorderStyle.None;
-            textBox7.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            textBox7.ForeColor = SystemColors.WindowFrame;
-            textBox7.Location = new Point(75, 376);
-            textBox7.Name = "textBox7";
-            textBox7.ReadOnly = true;
-            textBox7.Size = new Size(60, 22);
-            textBox7.TabIndex = 58;
-            textBox7.Text = "16";
-            textBox7.TextAlign = HorizontalAlignment.Center;
+            niright.BackColor = Color.FromArgb(254, 41, 17);
+            niright.Location = new Point(138, 363);
+            niright.Name = "niright";
+            niright.Size = new Size(10, 48);
+            niright.TabIndex = 62;
+            niright.TabStop = false;
+            // 
+            // nibottom
+            // 
+            nibottom.BackColor = Color.FromArgb(254, 41, 17);
+            nibottom.Location = new Point(73, 401);
+            nibottom.Name = "nibottom";
+            nibottom.Size = new Size(65, 10);
+            nibottom.TabIndex = 61;
+            nibottom.TabStop = false;
+            // 
+            // nitop
+            // 
+            nitop.BackColor = Color.FromArgb(254, 41, 17);
+            nitop.Location = new Point(73, 363);
+            nitop.Name = "nitop";
+            nitop.Size = new Size(65, 10);
+            nitop.TabIndex = 60;
+            nitop.TabStop = false;
+            // 
+            // newitemsbg
+            // 
+            newitemsbg.BackColor = Color.FromArgb(254, 41, 17);
+            newitemsbg.Location = new Point(8, 363);
+            newitemsbg.Name = "newitemsbg";
+            newitemsbg.Size = new Size(65, 48);
+            newitemsbg.TabIndex = 59;
+            newitemsbg.TabStop = false;
+            // 
+            // newitems
+            // 
+            newitems.BackColor = SystemColors.ButtonHighlight;
+            newitems.BorderStyle = BorderStyle.None;
+            newitems.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            newitems.ForeColor = SystemColors.WindowFrame;
+            newitems.Location = new Point(75, 376);
+            newitems.Name = "newitems";
+            newitems.ReadOnly = true;
+            newitems.Size = new Size(60, 22);
+            newitems.TabIndex = 58;
+            newitems.Text = "16";
+            newitems.TextAlign = HorizontalAlignment.Center;
             // 
             // license
             // 
@@ -929,56 +999,56 @@
             copyright.TabIndex = 65;
             copyright.Text = "Copyright © All Rights Reserved.";
             // 
-            // pictureBox20
+            // middleborder
             // 
-            pictureBox20.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox20.Location = new Point(517, 363);
-            pictureBox20.Name = "pictureBox20";
-            pictureBox20.Size = new Size(25, 218);
-            pictureBox20.TabIndex = 67;
-            pictureBox20.TabStop = false;
+            middleborder.BackColor = Color.FromArgb(254, 41, 17);
+            middleborder.Location = new Point(517, 363);
+            middleborder.Name = "middleborder";
+            middleborder.Size = new Size(25, 218);
+            middleborder.TabIndex = 67;
+            middleborder.TabStop = false;
             // 
-            // pictureBox21
+            // loaderleft
             // 
-            pictureBox21.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox21.Location = new Point(446, 372);
-            pictureBox21.Name = "pictureBox21";
-            pictureBox21.Size = new Size(10, 38);
-            pictureBox21.TabIndex = 68;
-            pictureBox21.TabStop = false;
+            loaderleft.BackColor = Color.FromArgb(254, 41, 17);
+            loaderleft.Location = new Point(446, 372);
+            loaderleft.Name = "loaderleft";
+            loaderleft.Size = new Size(10, 38);
+            loaderleft.TabIndex = 68;
+            loaderleft.TabStop = false;
             // 
-            // pictureBox22
+            // loaderright
             // 
-            pictureBox22.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox22.Location = new Point(501, 364);
-            pictureBox22.Name = "pictureBox22";
-            pictureBox22.Size = new Size(10, 37);
-            pictureBox22.TabIndex = 69;
-            pictureBox22.TabStop = false;
+            loaderright.BackColor = Color.FromArgb(254, 41, 17);
+            loaderright.Location = new Point(501, 364);
+            loaderright.Name = "loaderright";
+            loaderright.Size = new Size(10, 37);
+            loaderright.TabIndex = 69;
+            loaderright.TabStop = false;
             // 
-            // pictureBox23
+            // loadertop
             // 
-            pictureBox23.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox23.Location = new Point(446, 363);
-            pictureBox23.Name = "pictureBox23";
-            pictureBox23.Size = new Size(65, 10);
-            pictureBox23.TabIndex = 70;
-            pictureBox23.TabStop = false;
+            loadertop.BackColor = Color.FromArgb(254, 41, 17);
+            loadertop.Location = new Point(446, 363);
+            loadertop.Name = "loadertop";
+            loadertop.Size = new Size(65, 10);
+            loadertop.TabIndex = 70;
+            loadertop.TabStop = false;
             // 
-            // pictureBox24
+            // loaderbottom
             // 
-            pictureBox24.BackColor = Color.FromArgb(254, 41, 17);
-            pictureBox24.Location = new Point(446, 401);
-            pictureBox24.Name = "pictureBox24";
-            pictureBox24.Size = new Size(65, 10);
-            pictureBox24.TabIndex = 71;
-            pictureBox24.TabStop = false;
+            loaderbottom.BackColor = Color.FromArgb(254, 41, 17);
+            loaderbottom.Location = new Point(446, 401);
+            loaderbottom.Name = "loaderbottom";
+            loaderbottom.Size = new Size(65, 10);
+            loaderbottom.TabIndex = 71;
+            loaderbottom.TabStop = false;
             // 
             // loader
             // 
             loader.BackColor = Color.White;
             loader.BackgroundImage = (Image)resources.GetObject("loader.BackgroundImage");
-            loader.Location = new Point(466, 374);
+            loader.Location = new Point(466, 375);
             loader.Name = "loader";
             loader.Size = new Size(24, 25);
             loader.TabIndex = 72;
@@ -990,56 +1060,60 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(1047, 589);
+            Controls.Add(openmodule);
+            Controls.Add(logs);
+            Controls.Add(nuget);
+            Controls.Add(sitecoreinit);
             Controls.Add(loader);
-            Controls.Add(pictureBox24);
-            Controls.Add(pictureBox23);
-            Controls.Add(pictureBox22);
-            Controls.Add(pictureBox21);
-            Controls.Add(pictureBox20);
+            Controls.Add(loaderbottom);
+            Controls.Add(loadertop);
+            Controls.Add(loaderright);
+            Controls.Add(loaderleft);
+            Controls.Add(middleborder);
             Controls.Add(notifications);
             Controls.Add(copyright);
             Controls.Add(license);
-            Controls.Add(label8);
-            Controls.Add(pictureBox16);
-            Controls.Add(pictureBox17);
-            Controls.Add(pictureBox18);
-            Controls.Add(pictureBox19);
-            Controls.Add(textBox7);
-            Controls.Add(label7);
-            Controls.Add(pictureBox12);
-            Controls.Add(pictureBox13);
-            Controls.Add(pictureBox14);
-            Controls.Add(pictureBox15);
-            Controls.Add(textBox6);
-            Controls.Add(label6);
-            Controls.Add(pictureBox11);
-            Controls.Add(pictureBox10);
-            Controls.Add(pictureBox9);
-            Controls.Add(pictureBox8);
-            Controls.Add(textBox5);
-            Controls.Add(pictureBox7);
+            Controls.Add(newitemslabel);
+            Controls.Add(niright);
+            Controls.Add(nibottom);
+            Controls.Add(nitop);
+            Controls.Add(newitemsbg);
+            Controls.Add(newitems);
+            Controls.Add(serializeditemslabel);
+            Controls.Add(siright);
+            Controls.Add(sibottom);
+            Controls.Add(sitop);
+            Controls.Add(serializeditemsbg);
+            Controls.Add(serializeditems);
+            Controls.Add(modulesamountlabel);
+            Controls.Add(maright);
+            Controls.Add(mabottom);
+            Controls.Add(matop);
+            Controls.Add(modulesamountbg);
+            Controls.Add(modulesamount);
+            Controls.Add(bottomlistborder);
             Controls.Add(refresh);
             Controls.Add(selectall);
-            Controls.Add(label5);
-            Controls.Add(pictureBox6);
-            Controls.Add(checkedListBox1);
-            Controls.Add(textBox4);
-            Controls.Add(label4);
-            Controls.Add(pictureBox5);
-            Controls.Add(textBox3);
-            Controls.Add(label3);
-            Controls.Add(pictureBox4);
+            Controls.Add(toplistlabel);
+            Controls.Add(toplistborder);
+            Controls.Add(modules);
+            Controls.Add(modulesurl);
+            Controls.Add(moduleslocationlabel);
+            Controls.Add(moduleslocationbg);
+            Controls.Add(workingurl);
+            Controls.Add(workinglabel);
+            Controls.Add(workingbg);
             Controls.Add(powershell);
-            Controls.Add(textBox2);
-            Controls.Add(label2);
-            Controls.Add(pictureBox3);
-            Controls.Add(label1);
+            Controls.Add(identityurl);
+            Controls.Add(identitylabel);
+            Controls.Add(identitybg);
+            Controls.Add(cmlabel);
             Controls.Add(login);
             Controls.Add(commands);
             Controls.Add(toolsrestore);
             Controls.Add(install);
-            Controls.Add(pictureBox2);
-            Controls.Add(textBox1);
+            Controls.Add(cmbg);
+            Controls.Add(cmurl);
             Controls.Add(pushall);
             Controls.Add(pullall);
             Controls.Add(delete);
@@ -1075,29 +1149,29 @@
             ((System.ComponentModel.ISupportInitialize)logotopbar).EndInit();
             ((System.ComponentModel.ISupportInitialize)consoletopbar).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox18).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox19).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox20).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox21).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox22).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox23).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox24).EndInit();
+            ((System.ComponentModel.ISupportInitialize)cmbg).EndInit();
+            ((System.ComponentModel.ISupportInitialize)identitybg).EndInit();
+            ((System.ComponentModel.ISupportInitialize)workingbg).EndInit();
+            ((System.ComponentModel.ISupportInitialize)moduleslocationbg).EndInit();
+            ((System.ComponentModel.ISupportInitialize)toplistborder).EndInit();
+            ((System.ComponentModel.ISupportInitialize)bottomlistborder).EndInit();
+            ((System.ComponentModel.ISupportInitialize)modulesamountbg).EndInit();
+            ((System.ComponentModel.ISupportInitialize)matop).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mabottom).EndInit();
+            ((System.ComponentModel.ISupportInitialize)maright).EndInit();
+            ((System.ComponentModel.ISupportInitialize)siright).EndInit();
+            ((System.ComponentModel.ISupportInitialize)sibottom).EndInit();
+            ((System.ComponentModel.ISupportInitialize)sitop).EndInit();
+            ((System.ComponentModel.ISupportInitialize)serializeditemsbg).EndInit();
+            ((System.ComponentModel.ISupportInitialize)niright).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nibottom).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nitop).EndInit();
+            ((System.ComponentModel.ISupportInitialize)newitemsbg).EndInit();
+            ((System.ComponentModel.ISupportInitialize)middleborder).EndInit();
+            ((System.ComponentModel.ISupportInitialize)loaderleft).EndInit();
+            ((System.ComponentModel.ISupportInitialize)loaderright).EndInit();
+            ((System.ComponentModel.ISupportInitialize)loadertop).EndInit();
+            ((System.ComponentModel.ISupportInitialize)loaderbottom).EndInit();
             ((System.ComponentModel.ISupportInitialize)loader).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -1124,56 +1198,60 @@
         private Button delete;
         private Button pullall;
         private Button pushall;
-        private TextBox textBox1;
-        private PictureBox pictureBox2;
+        private TextBox cmurl;
+        private PictureBox cmbg;
         private Button install;
         private Button toolsrestore;
         private Button commands;
         private Button login;
-        private Label label1;
-        private PictureBox pictureBox3;
-        private Label label2;
-        private TextBox textBox2;
+        private Label cmlabel;
+        private PictureBox identitybg;
+        private Label identitylabel;
+        private TextBox identityurl;
         private ToolTip tooltip;
         private Button powershell;
-        private TextBox textBox3;
-        private Label label3;
-        private PictureBox pictureBox4;
-        private TextBox textBox4;
-        private Label label4;
-        private PictureBox pictureBox5;
-        private CheckedListBox checkedListBox1;
-        private PictureBox pictureBox6;
-        private Label label5;
+        private TextBox workingurl;
+        private Label workinglabel;
+        private PictureBox workingbg;
+        private TextBox modulesurl;
+        private Label moduleslocationlabel;
+        private PictureBox moduleslocationbg;
+        private CheckedListBox modules;
+        private PictureBox toplistborder;
+        private Label toplistlabel;
         private Button selectall;
         private Button refresh;
-        private PictureBox pictureBox7;
-        private TextBox textBox5;
-        private PictureBox pictureBox8;
-        private PictureBox pictureBox9;
-        private PictureBox pictureBox10;
-        private PictureBox pictureBox11;
-        private Label label6;
-        private Label label7;
-        private PictureBox pictureBox12;
-        private PictureBox pictureBox13;
-        private PictureBox pictureBox14;
-        private PictureBox pictureBox15;
-        private TextBox textBox6;
-        private Label label8;
-        private PictureBox pictureBox16;
-        private PictureBox pictureBox17;
-        private PictureBox pictureBox18;
-        private PictureBox pictureBox19;
-        private TextBox textBox7;
+        private PictureBox bottomlistborder;
+        private TextBox modulesamount;
+        private PictureBox modulesamountbg;
+        private PictureBox matop;
+        private PictureBox mabottom;
+        private PictureBox maright;
+        private Label modulesamountlabel;
+        private Label serializeditemslabel;
+        private PictureBox siright;
+        private PictureBox sibottom;
+        private PictureBox sitop;
+        private PictureBox serializeditemsbg;
+        private TextBox serializeditems;
+        private Label newitemslabel;
+        private PictureBox niright;
+        private PictureBox nibottom;
+        private PictureBox nitop;
+        private PictureBox newitemsbg;
+        private TextBox newitems;
         private Label license;
         private Label copyright;
         private Button notifications;
-        private PictureBox pictureBox20;
-        private PictureBox pictureBox21;
-        private PictureBox pictureBox22;
-        private PictureBox pictureBox23;
-        private PictureBox pictureBox24;
+        private PictureBox middleborder;
+        private PictureBox loaderleft;
+        private PictureBox loaderright;
+        private PictureBox loadertop;
+        private PictureBox loaderbottom;
         private PictureBox loader;
+        private Button sitecoreinit;
+        private Button nuget;
+        private Button logs;
+        private Button openmodule;
     }
 }
