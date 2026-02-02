@@ -13,6 +13,10 @@ namespace Sitecore.GLI
         public Main()
         {
             InitializeComponent();
+
+            string appPath = AppDomain.CurrentDomain.BaseDirectory;
+            console.Text = $"{appPath}>";
+            console.Focus();
         }
 
         protected override CreateParams CreateParams
@@ -112,6 +116,66 @@ namespace Sitecore.GLI
             {
                 // User canceled the UAC prompt
             }
+        }
+
+        private async void toolsrestore_Click(object sender, EventArgs e)
+        {
+            string appPath = AppDomain.CurrentDomain.BaseDirectory;
+            console.Text = $"{appPath}> dotnet tool restore\r\n";
+
+            try
+            {
+                var process = new System.Diagnostics.Process
+                {
+                    StartInfo = new System.Diagnostics.ProcessStartInfo
+                    {
+                        FileName = "dotnet",
+                        Arguments = "tool restore",
+                        UseShellExecute = false,
+                        RedirectStandardOutput = true,
+                        RedirectStandardError = true,
+                        CreateNoWindow = true,
+                        WorkingDirectory = AppDomain.CurrentDomain.BaseDirectory,
+                        StandardOutputEncoding = System.Text.Encoding.UTF8,
+                        StandardErrorEncoding = System.Text.Encoding.UTF8
+                    }
+                };
+
+                process.OutputDataReceived += (s, args) =>
+                {
+                    if (!string.IsNullOrEmpty(args.Data))
+                    {
+                        console.Invoke(() => console.AppendText(args.Data + "\r\n"));
+                    }
+                };
+
+                process.ErrorDataReceived += (s, args) =>
+                {
+                    if (!string.IsNullOrEmpty(args.Data))
+                    {
+                        console.Invoke(() => console.AppendText("ERROR: " + args.Data + "\r\n"));
+                    }
+                };
+
+                process.Start();
+                process.BeginOutputReadLine();
+                process.BeginErrorReadLine();
+                await process.WaitForExitAsync();
+
+                console.AppendText($"\r\nCommand completed with exit code: {process.ExitCode}\r\n");
+                console.Focus();
+            }
+            catch (Exception ex)
+            {
+                console.AppendText($"\r\nError: {ex.Message}\r\n");
+                console.Focus();
+            }
+        }
+
+        private void delete_Click(object sender, EventArgs e)
+        {
+            string appPath = AppDomain.CurrentDomain.BaseDirectory;
+            console.Text = $"{appPath}>";
         }
     }
 }
